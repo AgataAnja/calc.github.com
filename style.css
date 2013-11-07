@@ -1,0 +1,45 @@
+#calc {
+	width: 164px;
+	border: 2px ridge #2E8B57;
+	padding: 5px;
+	background-color: #3CB371;
+}
+
+input {
+	text-align: right;
+	width: 90%;
+	margin: 5px;
+	display: block;
+	background-color: #66CDAA;
+}
+
+output {
+	text-align: right;
+	width: 80%;
+	height: 20px;
+	margin: 5px;
+	border: 2px inset #808080;
+	overflow: hidden;
+	display: block;
+	background-color: #66CDAA;
+}
+
+button {
+	height: 50px;
+	width: 50px;
+	background-color: #66CDAA;
+	margin: 1px;
+}
+
+button.arithmetic_keys {
+	width: 36px;
+	height: 36px;
+}
+
+button#null {
+	width: 160px;
+}
+
+div {
+	padding-bottom: 5px;
+}
